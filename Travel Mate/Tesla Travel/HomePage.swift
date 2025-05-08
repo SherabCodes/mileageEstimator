@@ -112,10 +112,10 @@ struct HomePage: View {
                             .navigationBarTitleDisplayMode(.inline)
                     }
                 }
-                .onChange(of: selectedStart) { _ in
+                .onChange(of: selectedStart) {
                     updateBatteryCoverage()
                 }
-                .onChange(of: selectedDestination) { _ in
+                .onChange(of: selectedDestination) {
                     updateBatteryCoverage()
                 }
                 .onAppear {
