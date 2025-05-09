@@ -2,16 +2,16 @@
 //  MapPage.swift
 //  Tesla Travel
 //
-//  Created by Sherab Ghale on 4/22/25.
+//  Created by Sherab  on 4/22/25.
 //
-// This file calls MapViewControllerRepresentable when it wants to show a map
+// Purpose; This file calls MapViewControllerRepresentable when it wants to show a map
 
 import SwiftUI
 
 struct MapPage: View {
     var body: some View {
         VStack {
-            Text("Charging Station Discovering Map")
+            Text("Charging Stations")
                 .font(.largeTitle)
                 .padding(.bottom)
             

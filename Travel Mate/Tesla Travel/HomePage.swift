@@ -92,6 +92,7 @@ struct HomePage: View {
                     .padding(.top, 40)
 
                     // Navigate to Map
+                    /*
                     Button("Discover Charging Stations") {
                         path.append(Route.map)
                     }
@@ -101,6 +102,7 @@ struct HomePage: View {
                     .foregroundColor(.white)
                     .cornerRadius(12)
                     .disabled(selectedStart == selectedDestination)
+                    */
 
                     Spacer()
                 }

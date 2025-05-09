@@ -14,6 +14,20 @@ struct ContentView: View {
                     Image(systemName: "person")
                     Text("Profile")
                 }
+            PowerBatteryView()
+                            .tabItem {
+                                Image(systemName: "power")
+                                Text("Power&Battery")
+                            }
+            MapPage()
+                .tabItem {
+                    Image(systemName: "map")
+                    Text("MapView")
+                }
+            
+            
+                
+            
         }
     }
 }

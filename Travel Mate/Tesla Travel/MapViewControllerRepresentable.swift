@@ -2,7 +2,7 @@
 //  MapViewControllerRepresentable.swift
 //  Tesla Travel
 //
-//  Created by Sherab Ghale on 4/22/25.
+//  Created by Sherab on 4/22/25.
 //
 // The MapPage file calls this file MapViewControllerRepresentable
 // and this file calls MapViewController to create a UIKit

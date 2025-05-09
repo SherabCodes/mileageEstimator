@@ -2,13 +2,13 @@
 //  MapViewController.swift
 //  Tesla Travel
 //
-//  Created by SherabGhale on 4/21/25.
+//  Created by Sherab on 4/21/25.
 //
 // This page is for the full screen map view which sets SF as the default location
 // It is called by the MapViewControllerRepresentable file
 
 
-// comments on new changes
+// comments on new changes made
 //added a CLLocationManager to request and manage location permissions. If granted,the map's region is updated to the user's current location.
 // Once the user’s location is available, a search is performed using MKLocalSearch to find nearby charging stations (apple map's data)
 
@@ -44,7 +44,6 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
         locationManager.startUpdatingLocation()
     }
     
-    // CLLocationManagerDelegate is called when location permission is granted
     func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
         if status == .authorizedWhenInUse || status == .authorizedAlways {
             locationManager.startUpdatingLocation()
